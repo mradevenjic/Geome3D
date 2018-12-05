@@ -621,10 +621,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "RIGHT MOUSE CLICK - locks mouse cursor to look around space\n\nW / ARROW
-    UP - move forward\nS / ARROW DOWN - move backward\nA / ARROW LEFT -  straffe left\nD
-    / ARROW RIGHT - straffe right\nR / SPACE - go up \nF / LEFT CTRL - go down\n\nESCAPE
-    - unlocks mouse cursor to control sliders and toggles"
+  m_Text: "RIGHT MOUSE CLICK - locks mouse cursor to look around space and hides UI
+    elements\n\nW / ARROW UP - move forward\nS / ARROW DOWN - move backward\nA / ARROW
+    LEFT -  straffe left\nD / ARROW RIGHT - straffe right\nR / SPACE - go up \nF /
+    LEFT CTRL - go down\n\nESCAPE - unlocks mouse cursor to control sliders and toggles"
 --- !u!222 &1698574097
 CanvasRenderer:
   m_ObjectHideFlags: 0

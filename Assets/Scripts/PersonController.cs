@@ -4,6 +4,7 @@ public class PersonController : MonoBehaviour {
 
     public float speed = 4.0f;
 
+    public Canvas canvasObj;
 	
 	void Update ()
     { 
@@ -17,12 +18,14 @@ public class PersonController : MonoBehaviour {
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+            canvasObj.enabled = true;
         } 
 
         if(Input.GetMouseButtonDown(1))
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            canvasObj.enabled = false;
         }
 	}
 }

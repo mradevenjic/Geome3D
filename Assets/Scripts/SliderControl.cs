@@ -300,7 +300,7 @@ public class SliderControl : MonoBehaviour
         if (toggleCylinder.isOn == true)
         {
             Vector3 cylinderScale = cylinder.transform.localScale;
-            cylinderScale.x = newValue / 5;
+            cylinderScale.x = newValue / 10;
             cylinder.transform.localScale = cylinderScale;
         }
 
@@ -390,7 +390,7 @@ public class SliderControl : MonoBehaviour
         if (toggleCylinder.isOn == true)
         {
             Vector3 cylinderScale = cylinder.transform.localScale;
-            cylinderScale.z = newValue / 5;
+            cylinderScale.z = newValue / 10;
             cylinder.transform.localScale = cylinderScale;
         }
 
